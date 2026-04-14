@@ -8,7 +8,8 @@
     "strict": true, /* 型チェックを厳格に行い、バグを防ぎます */
     "esModuleInterop": true,
     "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true
+    "forceConsistentCasingInFileNames": true,
+    "ignoreDeprecations": "6.0" /* TypeScript 6.0以降の非推奨警告を無視します */
   },
   "include": [
     "**/*.ts"
