@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES2022", /* GASのV8エンジンは最新のJSに対応しています */
+    "module": "None", /* GASは独自のグローバルスコープを持つためモジュール化しません */
+    "lib": [
+      "ESNext"
+    ], /* ブラウザ用のDOM（document等）を含めないようにします */
+    "strict": true, /* 型チェックを厳格に行い、バグを防ぎます */
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": [
+    "**/*.ts"
+  ]
+}
