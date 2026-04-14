@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint:md": "markdownlint-cli2 \"**/*.md\" \"#node_modules\""
+    "lint:md": "markdownlint-cli2 \"**/*.md\" \"#node_modules\"",
+    "build:form-experiment": "tsc -p form-experiment/tsconfig.json && cp form-experiment/appsscript.json form-experiment/dist/",
+    "push:form-experiment": "npm run build:form-experiment && cd form-experiment && npx clasp push"
   },
   "repository": {
     "type": "git",
