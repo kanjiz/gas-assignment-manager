@@ -1,0 +1,13 @@
+# 改行コードを LF に統一し、チェックアウト時も自動変換させない
+* text=auto eol=lf
+
+# 言語ごとの属性定義（必要に応じて）
+*.ts text
+*.js text
+*.json text
+*.md text
+
+# バイナリファイル（画像など）はそのまま扱う
+*.png binary
+*.jpg binary
+*.gif binary

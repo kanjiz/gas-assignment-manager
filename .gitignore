@@ -1,0 +1,30 @@
+# Dependency directories
+node_modules/
+
+# Build outputs
+dist/
+build/
+
+# Clasp / Google Apps Script
+# .clasp.json はプロジェクトIDを含むため、共有する場合は除外しないこともありますが、
+# 認証情報が含まれる .clasprc.json は絶対に無視する必要があります。
+.clasprc.json
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.bak
+
+# Environment variables
+.env
+.env.local
